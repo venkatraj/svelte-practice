@@ -1,5 +1,5 @@
 <script>
-	import Counter from './Counter.svelte'
+	import Toggle from './Toggle.svelte';
 </script>
 
-<Counter />
+<Toggle />

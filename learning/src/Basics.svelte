@@ -4,7 +4,7 @@
 	let who = 'A man';
 	let src = 'https://svelte.dev/tutorial/image.gif';
 	let string = `this string contains some <strong>HTML!!!</strong> and will not be escaped by svelte by default. Be sure to manually escape code from untrusted sources or risk XSS`
-	let answer;
+	export let answer;
 </script>
 
 <style>
