@@ -1,4 +1,5 @@
 <script>
+	import Nested from './Nested.svelte';
 	let name = 'world';
 	let who = 'A man';
 	let src = 'https://svelte.dev/tutorial/image.gif';
@@ -15,3 +16,4 @@
 <h1>Hello {name}!</h1>
 <img {src} alt="{who} dancing" />
 <p>This is a paragraph with component scoped styles</p>
+<Nested />
