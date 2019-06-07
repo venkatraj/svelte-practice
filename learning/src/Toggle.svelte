@@ -10,9 +10,7 @@
 <button on:click={toggle}>
   Login
 </button>
-{/if}
-
-{#if loggedIn}
+{:else}
 <button on:click={toggle}>
   Logout
 </button>
